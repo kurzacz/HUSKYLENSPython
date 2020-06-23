@@ -32,7 +32,7 @@ On your Raspberry PI you must enable I2C in settings before being able to use it
 > 6) Use the right arrow to select the <Finish> button.
 > 7) Select yes when it asks to reboot.
 > 8) After reboot , run ```sudo apt-get install -y i2c-tools```
-> 9) Run ```sudo apt-get install python-smbus```
+> 9) Run ```sudo apt-get install python3-smbus```
 > 10) Run ```sudo pip3 install pyserial smbus```
 
 # III. Coding Guide 
